@@ -21,6 +21,7 @@ It is crucial that I maintain the following resources:
 * Energy
 * Health
 * Fed
+
 And keep them at decent levels
 
 * Knowledge - Helps me do my thesis quicker
@@ -61,6 +62,7 @@ def gym(state):
 
 ## Example output ##
 
+```python
 depth 0 tasks [('finish_thesis_task',)]
 depth 1 tasks [('write_sph_task',), ('finish_thesis_task',)]
 depth 2 tasks [('write_other_task',), ('write_sph_task',), ('finish_thesis_task',)]
@@ -132,3 +134,4 @@ depth 67 tasks []
 ** result = [('write_other',), ('relax',), ('write_sph',), ('study',), ('eat',), ('gym',), ('write_other',),
 ('relax',), ('write_sph',), ('study',), ('eat',), ('gym',), ('relax',), ('write_other',), ('write_sph',), ('eat',),
 ('study',), ('relax',), ('write_other',), ('gym',), ('eat',), ('write_sph',), ('study',), ('finish_thesis',)]
+```
